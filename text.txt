@@ -1,0 +1,3 @@
+Hello 
+So, this is the first class of the training.
+And we are training for the GITHUB Session.
