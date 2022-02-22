@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+ <div class="row">
+   <div class="col-sm-4">
+
+    <h3 class="text-primary">Permanent Address</h3>
+    <p>Enter permanent address as your Identity card</p>
+      
+     <div class="form-group">
+        <input type="text" class="form-control" placeholder="Address Line 1" id="pAddressLine1">
+     </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Zip Code" id="pZipcode">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="City" id="pCity">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="State" id="pState">
+       </div>
+
+       <div class="form-group">
+          <input type="text" class="form-control" placeholder="country" id="pCountry">
+        </div>
+
+   </div>
+   <div class="col-sm-4">
+
+
+   <h3 class="text-primary">Current Address</h3>
+
+       <div class="form-group">
+          <input type="checkbox" id="checkBox"  onclick="FillAddressInput()"> Same as permanent address
+       </div>
+
+       <div class="form-group">
+          <input type="text" class="form-control" placeholder="Address Line 1" id="curAddressLine1">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Zip Code" id="curZipcode">
+       </div>
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="City" id="curCity">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="State" id="curState">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="country" id="curCountry">
+       </div>
+   </div>
+   <div class="col-sm-4"></div>
+</div>
+</div>
+ <script src="task3.js"></script>
+</body>
+</html>
